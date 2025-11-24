@@ -17,18 +17,15 @@
 --                    (5,'Maths',82),
 --                    (5,'Science',5);
 
---1 YES
-SELECT lastname, dob FROM Students;
---2 
-SELECT * FROM Students;
---3 YES
-SELECT firstname, lastname, dob FROM Students
-    WHERE dob LIKE '%%%%%%2007';
---4 
-SELECT * FROM Students;
---5 
-SELECT * FROM Students;
---6 
-SELECT * FROM Students;
---7 
-SELECT * FROM Students;
+--SELECT lastname, dob FROM Students;
+--SELECT firstname, lastname FROM Students
+--    ORDER BY lastname;
+--SELECT firstname, lastname, dob FROM Students
+--    WHERE dob LIKE '%%%%%%2007';
+--SELECT * FROM Marks;
+--SELECT * FROM Marks
+--    WHERE subject LIKE 'English';
+--SELECT subject, mark FROM Marks
+--    WHERE mark < 50;
+--SELECT subject, mark FROM Marks
+--    WHERE mark > 49;
